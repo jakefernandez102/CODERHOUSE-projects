@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Jake",
+      "phoneNumber": "11223344",
+      "birthDate": "10-02-1997",
+      "rol": "1",
+      "email": "jake@correo.com",
+      "password": "123",
+      "primeraSesion": true
+    },
+    {
+      "name": "Jake Fernandez",
+      "phoneNumer": "1122334455",
+      "birthDate": "2023-03-28",
+      "rol": "1",
+      "email": "j.ake102@hotmail.com",
+      "password": "123",
+      "token": "9qjtegxz7cdlh0ps7g29qjtegxz7cdlh0ps7g2",
+      "primeraSesion": false,
+      "id": "I8H_IF-"
+    },
+    {
+      "name": "Juank",
+      "phoneNumer": "1122334455",
+      "birthDate": "2023-03-27",
+      "rol": "1",
+      "email": "juank@hotmail.com",
+      "password": "123",
+      "token": "g3k2kjw351elh0q389hg3k2kjw351elh0q389h",
+      "primeraSesion": false,
+      "id": "paLad3q"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "productName": "Pan",
+      "price": "600",
+      "inventory": "100"
+    },
+    {
+      "productName": "Coffee",
+      "price": "10",
+      "inventory": "100",
+      "id": "lh0ptj2i"
+    },
+    {
+      "productName": "Pizza",
+      "price": "10",
+      "inventory": "100",
+      "id": "lh0pwyg4"
+    },
+    {
+      "productName": "Juice",
+      "price": "5",
+      "inventory": "100",
+      "id": "lh0qbuz3"
+    },
+    {
+      "productName": "Hamburger",
+      "price": "10",
+      "inventory": "100",
+      "id": "lh0qez3n"
+    },
+    {
+      "productName": "Pan",
+      "price": "5",
+      "inventory": "100",
+      "id": "lh0qttuu"
+    },
+    {
+      "productName": "Hamburger",
+      "price": "10",
+      "inventory": "100",
+      "id": "lh0qu2gx"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customerID": "1",
+      "productID": "1"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "1",
+      "restaurantName": "MonchisApp",
+      "products": [
+        {
+          "prodID": "1"
+        },
+        {
+          "prodID": "lh02cpjt"
+        }
+      ],
+      "ownerID": "YzQ_2PZ"
+    },
+    {
+      "ownerID": "I8H_IF-",
+      "products": [
+        {
+          "prodID": "lh0ptj2i"
+        },
+        {
+          "prodID": "lh0pwyg4"
+        },
+        {
+          "prodID": "lh0qttuu"
+        },
+        {
+          "prodID": "lh0qu2gx"
+        }
+      ],
+      "name": "Jake;s bar & Rest",
+      "id": "7FfwSk6"
+    },
+    {
+      "ownerID": "paLad3q",
+      "products": [
+        {
+          "prodID": "lh0qbuz3"
+        },
+        {
+          "prodID": "lh0qez3n"
+        }
+      ],
+      "name": "Juank Delicias",
+      "id": "lTYskdV"
+    }
+  ],
+  "owners": [
+    {
+      "userID": "1",
+      "restaurantID": []
+    }
+  ]
+}
